@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&family=Playfair+Display&display=swap');
+
+body{
+    background: url('https://i.pinimg.com/1200x/f0/0b/9d/f00b9dd676916076c3182094d27d2e0e.jpg') no-repeat center center fixed;
+    background-size: cover;
+    font-family: 'Playfair Display', serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #3e2f1c;
+}
+
+.container{
+    text-align: center;
+    background: rgba(248, 240, 220, 0.95);
+    padding: 2rem;
+    border-radius: 12px;
+    border: 5px double #8b6f47;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+    width: 90%;
+    max-width: 400px;
+    position: relative;
+    max-height: 90vh;
+    overflow: hidden;
+}
+
+h1{
+    font-family: 'Cinzel Decorative', cursive;
+    font-size: 2.2rem;
+    margin-bottom: 1rem;
+    color: #5a3e2b;
+    text-shadow: 1px 1px #d9cbb2;
+}
+
+.display{
+    font-size: 2.8rem;
+    margin: 1rem 0;
+    font-weight: bold;
+    background: #fffaf0;
+    padding: 0.6rem 1rem;
+    border-radius: 8px;
+    border: 2px solid #8b6f47;
+    box-sizing: inset 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.buttons button{
+    margin: 0.5rem;
+    padding: 0.6rem 1.2rem;
+    font-size: 0.8rem;
+    background: linear-gradient(to bottom, #e5d3ba, #c8a97e);
+    font-family: 'Cinzel Decorative', cursive;
+    box-shadow: inset 0 0 2px #fff, 0 2px 5px rgba(0, 0, 0, 0.2);
+    border: 2px solid #5a3e2b;
+    border-radius: 5px;
+    color: #3e2f1c;
+    background: #d7b98a;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.2
+}
+
+.buttons button:hover{
+    background: linear-gradient(to bottom, #d7b98a, #b8875b);
+    transform: scale(1.05);
+}
+
+.lap-list{
+    margin-top: 1rem;
+    list-style-type: upper-roman;
+    text-align: left ;
+    padding: 0 10px;
+    max-height: 150px;
+    overflow-y: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.lap-list li{
+    background: #fdf6e3;
+    padding: 0.5rem;
+    margin: 0.4rem 0;
+    border-left: 4px solid #8b6f47;
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+}
+
+.lap-list::-webkit-scrollbar{
+    width: 6px;
+}
+
+.lap-list::-webkit-scrollbar-thumb{
+    background-color: #8b6f47;
+    border-radius: 5px;
+}
