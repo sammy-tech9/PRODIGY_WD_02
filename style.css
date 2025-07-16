@@ -44,6 +44,15 @@ h1{
     box-sizing: inset 0 0 5px rgba(0, 0, 0, 0.2);
 }
 
+.buttons{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    padding-left: 1rem;
+    padding-top: 1rem; 
+    
+}
+
 .buttons button{
     margin: 0.5rem;
     padding: 0.6rem 1.2rem;
