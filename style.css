@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&family=Playfair+Display&display=swap');
 
 body{
-    background: url('https://i.pinimg.com/1200x/f0/0b/9d/f00b9dd676916076c3182094d27d2e0e.jpg') no-repeat center center fixed;
+    background: url('https://i.pinimg.com/1200x/58/bd/82/58bd827dc0715589a5a86872feb66eae.jpg') no-repeat center center fixed;
     background-size: cover;
     font-family: 'Playfair Display', serif;
     display: flex;
@@ -100,4 +100,24 @@ h1{
 .lap-list::-webkit-scrollbar-thumb{
     background-color: #8b6f47;
     border-radius: 5px;
+}
+
+@media (max-width: 480px) {
+    .buttons{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+        justify-items: center;
+        margin-top: 1rem; 
+    }
+
+    .buttons button{
+        width: 100%;
+        font-size: 0.85rem;
+        padding: 0.5rem;
+    }
+
+    .button i{
+        font-size: 1rem;
+    }
 }
